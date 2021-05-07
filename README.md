@@ -44,13 +44,13 @@ rx,ry,rz는 Reflection Vector의 요소이다.
 
 이렇게 만들어진 Material Function을 AutomotiveMaterial에 적용한 예가 다음 그림과 같다.
 
-![](https://github.com/Devcoder-IndieWorks/PanoramaReflection/blob/master/ScreenShots/Material 적용.png)
+![](https://github.com/Devcoder-IndieWorks/PanoramaReflection/blob/master/ScreenShots/Material_적용.png)
 
 빨간색 상자로 표시된 항목은 Clear Coat Roughness 값이고, 이 값을 선형 보간의 Alpha값으로 사용하였다.
 
 노란색 상자로 표시된 항목은 Reflection Vector 방향에서 투영된 Panorama Image의 Pixel 값이고, 파란색 상자로 표시된 항목은 도색 Pixel 값이다. 이 두값을  선형 보간하여 Material의 Base Color 값으로 사용한다.
 
-![](https://github.com/Devcoder-IndieWorks/PanoramaReflection/blob/master/ScreenShots/Material Instance 설정.png)
+![](https://github.com/Devcoder-IndieWorks/PanoramaReflection/blob/master/ScreenShots/Material_Instance_설정.png)
 
 위 그림처럼 Panorama Texture를 설정 해 준다.
 
@@ -58,5 +58,5 @@ rx,ry,rz는 Reflection Vector의 요소이다.
 
 ### 결과 화면 비교
 
-![](https://github.com/Devcoder-IndieWorks/PanoramaReflection/blob/master/ScreenShots/파노라마맵핑 적용 화면.png)
+![](https://github.com/Devcoder-IndieWorks/PanoramaReflection/blob/master/ScreenShots/파노라마맵핑_적용_화면.png)
 
