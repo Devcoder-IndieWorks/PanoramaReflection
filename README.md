@@ -10,7 +10,7 @@ UE4에서 Panorama Image로 Reflection 효과를 만들어 내는 기능 구현.
 
 ### Panorama Image Mapping
 
-다음 그림과 같은 파노라마 이미지를 Cube Mapping처럼 구체에 맵핑을 함.
+다음 그림과 같은 파노라마 이미지를 사용.
 
 ![](https://github.com/Devcoder-IndieWorks/PanoramaReflection/blob/master/ScreenShots/파노라마이미지.png)
 
