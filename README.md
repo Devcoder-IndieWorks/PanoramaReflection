@@ -14,3 +14,13 @@ UE4에서 Panorama Image로 Reflection 효과를 만들어 내는 기능 구현.
 
 ![](https://github.com/Devcoder-IndieWorks/PanoramaReflection/blob/master/ScreenShots/파노라마이미지.png)
 
+Cube Map을 사용하지 않고, 파노라마 이미지를 구체에 맵핑하기 위해서 Blinn/Newell Latitude Mapping 기법을 사용하였다.
+
+![](https://github.com/Devcoder-IndieWorks/PanoramaReflection/blob/master/ScreenShots/sphere_to_2d.gif)
+
+![](https://github.com/Devcoder-Indieworks/PanoramaReflection/blob/master/ScreenShots/sphere_eq.gif)
+
+참고: [Environment Mapping][EnvironmentMappingLink]
+
+[EnvironmentMappingLink]: http://www.reindelsoftware.com/Documents/Mapping/Mapping.html
+
